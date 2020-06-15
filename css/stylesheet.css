@@ -14,9 +14,7 @@ h2{
 }
 body{
     background-color: black;
-    color: white;
-    font-family: monospace;
-    font-size: 1.5em;
+  margin: 0;
 }
 
 #Nav{
@@ -476,6 +474,7 @@ textarea{
         display: block;
         position: relative;
         bottom: 40px;
+        text-decoration: none;
     }
 
     .nav-link{
