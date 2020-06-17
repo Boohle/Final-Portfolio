@@ -266,6 +266,10 @@ textarea{
     body{
         padding: 80px;
      }
+
+     p{
+        font-size: 1.2em;
+     }
  
      .desktopNav{
          display: block;
@@ -334,7 +338,7 @@ textarea{
          }
  
      .aboutBtn{
-         display: none;
+         display: block;
      }
      
      .Adahead{
@@ -350,6 +354,16 @@ textarea{
          left: 380px;
          bottom: 320px; 
      }
+
+     .gradbtn{
+        position: relative;
+        right: 160px;
+    }
+    
+    .gradbtn2{
+        position: relative;
+        right: 160px;
+    }
  
      .AdaGrad{
          padding: 50 50 0;
@@ -359,7 +373,7 @@ textarea{
  
      .Lecturers{
          padding: 20 20 0px;
-         height: 1000px;
+         height: 900px;
      }
  
      .forTest{
@@ -438,7 +452,7 @@ textarea{
          border: 1px solid white;
          border-radius:50%; 
          position: relative;
-         left:320px;
+         left:350px;
          top: 50px;
      }
      
