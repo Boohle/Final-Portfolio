@@ -119,7 +119,8 @@ border: 2px solid white;
 }
 
 .Text{
-    font-size: 0.5em;
+    font-size: 1em;
+    color: white;
 }
 .btn{
     padding:10px 40px ;
@@ -166,13 +167,16 @@ form button{
 }
 
 .contact{
-    background-color:#eb5e28 ;
+    background-color:blue ;
     width: 100px;
     height: 100px;
+    color: white;
+    font-size: 1em;
 }
 
 .TextTest{
-   font-size: 0.5em;
+   font-size: 0.8em;
+   color: white;
    width: 150px ;
    position: relative;
    left: 110px;
@@ -194,9 +198,9 @@ form button{
     bottom: 600px;
 }
 
-.Lecturers{
+ .Lecturers{
     overflow: hidden;
-    height: 1300px;
+    height: 1750px;
 }
 
 .by{
@@ -210,43 +214,31 @@ footer{
 .Ficon{
     display: inline-block;
     padding: 8;
-    font-size:0.5em;
+    font-size:1em;
     border: 1px solid white;
     border-radius:50%; 
     position: relative;
-    left:100px;
+    left:110px;
 }
 
 input{
     background-color: grey;
-    font-size: 0.8em;
+    font-size: 1em;
+    width: 300px;
 }
 
 textarea{
     background-color: grey;
-    font-size: 0.8em;
+    font-size: 1em;
+    width: 300px;
 }
 ::placeholder{
     color: white;
     font-size: 0.5em;
 }
-
-/* this is the styling for the about page */
-
-.aboutForPage{
-    padding: 20 10;
-}
-
-.front{
-    background-color: #eb5e28;
-    width: 85vw;
-    height: 50px;
-}
-
-.frontEnd{
-    border-radius: 50%;
-    border: white;
-    font-size: 20px;
+.copy{
+    color: white;
+    font-size: 1em;
 }
 
 
@@ -386,7 +378,7 @@ textarea{
      }
  
      .contact{
-         background-color:#eb5e28 ;
+         background-color:blue ;
          width: 120px;
          height: 120px;
      }
@@ -470,6 +462,10 @@ textarea{
        padding: 80px;
     }
 
+    .tag{
+        font-size: 1em;
+    }
+
     .desktopNav{
         display: block;
         position: relative;
@@ -523,9 +519,9 @@ textarea{
         }
 
         .AbtHead{
-            font-size: 2em;
+            font-size: 2.5em;
             position: relative;
-            top: 80px;
+            top: 40px;
         }
         
     .AboutMe{
@@ -535,11 +531,12 @@ textarea{
         }
 
         .AboutT{
-            width: 800px;
+            width: 600px;
             position: relative;
-            font-size: 0.6em;
+            font-size: 1em;
             left: 460px;
-            bottom: 320px;
+            bottom: 360px;
+            color: white;
         }
 
         .Mina{
@@ -553,22 +550,27 @@ textarea{
     .Adahead{
         position: relative;
         left: 120px;
-        top: 60px;
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .graduate{
-        width: 800px;
+        width: 600px;
         position: relative;
-        font-size: 0.6em;
+        font-size: 1em;
         left: 460px;
-        bottom: 350px;
+        bottom: 380px;
+        color: white;
         
     }
 
     .gradbtn{
     position: relative;
-    right: 200px;
+    right: 400px;
+    }
+
+    .gradbtn2{
+        position: relative;
+        bottom: 70px;
     }
 
     .AdaGrad{
@@ -582,9 +584,19 @@ textarea{
         height: 1000px;
     }
 
+    .testHead{
+        font-size: 2.5em;
+    }
+
     .forTest{
         width: 800px;
         font-size: 1em;
+        color: white;
+    }
+
+    .TextTest{
+        position: relative;
+        bottom: 300px;
     }
 
     .TestimonialsPic{
@@ -598,14 +610,14 @@ textarea{
     }
 
     .contact{
-        background-color:#eb5e28 ;
+        background-color:blue ;
         width: 150px;
         height: 150px;
     }
 
     .TextTest{
-        font-size: 0.8em;
-        width: 350px ;
+        font-size: 1em;
+        width: 250px ;
         height: 300px;
         position: relative;
         left: 160px;
@@ -613,20 +625,21 @@ textarea{
 
      .Andy{
          position: relative;
-         left: 600px;
+         left: 500px;
          bottom: 1360px;
      }
      
      .Kate{
         position: relative;
-        left: 600px; 
-        bottom: 1560px;
+        left: 500px; 
+        bottom: 1570px;
      }
      .callMe{
          width: 800px;
          position: relative;
          left: 250px;
-         font-size:0.8em ;
+         font-size:1em ;
+         color: white;
      }
 
      input{
@@ -677,6 +690,6 @@ textarea{
 
 
 
-/* --------------------------------------------------------------Internet Explorer */
+/*  --------------------------------------------------------------Internet Explorer */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
 }
