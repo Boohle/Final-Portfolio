@@ -263,7 +263,7 @@ textarea{
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) { 
-    body{
+    /* body{
         padding: 80px;
      }
 
@@ -460,7 +460,7 @@ textarea{
          position: relative;
          top: 50px;
          font-size: 1em;
-     } 
+     }  */
 }
 
 
@@ -564,11 +564,13 @@ textarea{
     .Adahead{
         position: relative;
         left: 120px;
+        bottom: 50px;
         font-size: 2.5em;
     }
 
     .graduate{
         width: 600px;
+        height: 1500px;
         position: relative;
         font-size: 1em;
         left: 460px;
@@ -589,7 +591,7 @@ textarea{
 
     .AdaGrad{
         padding: 50 50 0;
-        height: 600px;
+        height: 1000px;
         overflow: hidden;
     }
 
