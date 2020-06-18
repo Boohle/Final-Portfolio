@@ -1,3 +1,11 @@
+/* color references
+
+pink: f54291
+teal: 4cd3c2
+dark grey: 1a1a1a
+*/
+
+/*standard styling for whole page*/
 html{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
@@ -5,140 +13,126 @@ html{
 
 p{
     font-weight:300 ;
+    color: white;
 }
 h1{
    font-weight: 300;
+   color: #4cd3c2;
+   text-align: center;
 }
 h2{
     font-weight: 500;
+}
+em{
+    font-size: 1em;
+    color: #4cd3c2;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #f54291;
+}
+
+.active{
+    color: #4cd3c2;
+}
+
+.hide-on-mobile{
+    display: none;
+}
+
+.show-on-mobile {
+    display: block;
+}
+.mobile-menu{
+    float: right;
 }
 body{
     background-color: black;
   margin: 0;
 }
-
-#Nav{
-    /* background-color: rgb(57, 68, 80); */
-    width: 100vw;
-    height: 80vh;
-    padding: 20 30;
-     text-align: center;
+.dark-grey{
+    background-color: #1a1a1a;
+    margin-bottom: 50px;
 }
 
-.close{
-    display: none;
-    color: whitesmoke;
-    position: relative;
-    right: 30px;
-    font-size: 1em;
-    border: 1px solid white ;
-    border-radius:50%; 
-    padding: 10;
+.name h1{
+    color: #f54291;
+    text-align: center;
 }
-
-a{
-font-size: 2em;
-color: white;
-position: relative;
-/* left: 50px; */
-
-}
-
-#ptag{
-    color: grey;
-}
-
-.desktopNav{
-    display: none;
-}
-
-.header{
-    padding-top:20px;
-}
-
+/*styling for the navbar*/
 .icon{
     display: inline-block;
     padding: 10;
     font-size:1em;
     border: 1px solid white;
     border-radius:50%;  
+    color: white;
 }
 
-.mobile-menu{
-   float: right;
+.about{
+    padding: 20px;
 }
-.name{
-    padding: 40 5 30;
+
+.grad{
+    padding: 20px;
+}
+#Nav{
+    width: 100vw;
+    height: 80vh;
+    padding: 20 30;
+     text-align: center;
 }
 
 .line{
-    padding: 0.2 20 25;
-}
-.lineP{
-    width: 90vw;
-    height: 1px;
     background-color: white;
-}
-
-.background{
-    padding:20 ;
-    background-color: rgb(57, 68, 80);
-}
-.forTag{
-    text-align: center;
-    overflow: hidden;
+    height: 1px;
+    margin: 30px 0 30px 0;
 }
 
 .taglineHi{
-    display: inline;
+    text-align: justify;
+    color: rgb(116, 133, 150);
+    font-size: 120px;
     font-weight: 200;
+    display: inline-block;
 }
 
-.deskIcon{
-    display: none;
+.ptagp{
+    color: #4cd3c2;
 }
 
-.space{
-    width: 100vw;
-    height: 10vh;
+#ptag{
+    color: grey;
 }
 
-
-.MyPic{
-    padding: 30 70; 
+.tag h1{
+     text-align: center;
+     font-size: 1.2em;
 }
 
+.AbtHead{
+    text-align: center;
+    margin-bottom: 30px;
+}
 .Pic{
-width:170px;
-height: 170px;
-border: 2px solid white;
-}
-
-.Mina{
+    width:80%;
+    border: 2px solid white;
+    margin: 40px;
     box-shadow: -20px -20px grey;
 }
-
-.Text{
-    font-size: 1em;
-    color: white;
-}
-.btn{
-    padding:10px 40px ;
-}
-
-
-.contact{
-    font-size: 0.6em;
-    text-align: center;
-    padding: 15 0 0 0;
-}
-
 button{
+    color: white;
+    background-color: #f54291;
     padding: 10px 20px;
     width: 250px;
     height: 50px;
     border-radius: 50px;
 }
+
 form button{
     padding: 0 20px;
     width: 200px;
@@ -148,77 +142,68 @@ form button{
     left: 60px;
 }
 
-.Lecturers{
-    height: 900px;
+.Adahead{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.forTest{
-    padding: 40 30;
+.AdaLogo{
+    margin-bottom: 30px;
+    width: 90%;
 }
 
-.TestimonialsPic{
-    width: 100px;
-    height: 100px;
+.btnJourney{
+    background-color: #f54291;
+    margin-bottom: 20px;
+}
+.btnCV{
+    background-color: #4cd3c2;
 }
 
-.extra{
-    width: 100px;
-    height: 2px;
+.ForTest{
+    text-align: justify;
 }
 
+.divJoin{
+    margin-bottom: 0;
+}
+.TestHead{
+    margin-bottom: 30px;
+}
+
+.TestDiv{
+    display: inline;
+}
 .contact{
-    background-color:blue ;
-    width: 100px;
-    height: 100px;
-    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    width: 35%;
+    height: 90px;
+    background-color: #f54291;
     font-size: 1em;
-}
-
-.TextTest{
-   font-size: 0.8em;
-   color: white;
-   width: 150px ;
-   position: relative;
-   left: 110px;
-   bottom: 200px;
-}
-
-.Laura{
-    position: relative;
-    bottom: 200px;
-}
-
-.Andy{
-    position: relative;
-    bottom: 400px;
-}
-
-.Kate{
-    position: relative;
-    bottom: 600px;
-}
-
- .Lecturers{
-    overflow: hidden;
-    height: 1750px;
 }
 
 .by{
     float: right;
 }
 
-footer{
-    padding: 80 0;
+
+.TestimonialsPic{
+    width: 35%;
+    margin-bottom: 5px; 
 }
 
-.Ficon{
-    display: inline-block;
-    padding: 8;
-    font-size:1em;
-    border: 1px solid white;
-    border-radius:50%; 
-    position: relative;
-    left:110px;
+.iconT{
+    color: white;
+    font-size: 1em;
+}
+
+.get{
+   margin-top: 50px; 
+}
+footer .copy{
+    text-align: center;
+    font-size: 0.8em;
 }
 
 input{
@@ -236,9 +221,26 @@ textarea{
     color: white;
     font-size: 0.5em;
 }
-.copy{
-    color: white;
+
+
+
+
+
+
+
+
+
+
+
+.close{
+    display: none;
+    color: whitesmoke;
+    position: relative;
+    right: 30px;
     font-size: 1em;
+    border: 1px solid white ;
+    border-radius:50%; 
+    padding: 10;
 }
 
 
@@ -263,204 +265,7 @@ textarea{
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) { 
-    /* body{
-        padding: 80px;
-     }
-
-     p{
-        font-size: 1.2em;
-     }
- 
-     .desktopNav{
-         display: block;
-         position: relative;
-         bottom: 40px;
-     }
- 
-     .nav-link{
-         color: white;
-     }
- 
-     .AboutHome{
-         padding: 30px 30px 40px;
-     }
- 
-     .name{
-         letter-spacing: 0.5em;
-         position: relative;
-         bottom: 45px;
-     }
- 
-     .menu{
-         display: none;
-     }
-
-     .groupicons{
-        float: right; 
-     }
- 
-     .icon{
-         padding: 5;  
-     }
- 
-     .deskIcon{
-         display: none;
-     }
- 
-     .Pic{
-         width:280px;
-         height: 280px;
-         border: 2px solid white;
-         }
- 
-         .AbtHead{
-             font-size: 1.2em;
-             position: relative;
-             left: 150px;
-         }
-         
-     .AboutMe{
-             padding: 50 50 0;
-            height: 600px;
-            overflow: hidden;
-         }
- 
-         .AboutT{
-             width: 400px;
-             position: relative;
-             font-size: 0.6em;
-             left: 380px;
-             bottom: 320px;
-         }
- 
-         .Mina{
-             box-shadow: -50px -50px grey;
-         }
- 
-     .aboutBtn{
-         display: block;
-     }
-     
-     .Adahead{
-         position: relative;
-         left: 150px;
-         font-size: 1.2em;
-     }
- 
-     .graduate{
-         width: 400px;
-         position: relative;
-         font-size: 0.6em;
-         left: 380px;
-         bottom: 320px; 
-     }
-
-     .gradbtn{
-        position: relative;
-        right: 160px;
-    }
     
-    .gradbtn2{
-        position: relative;
-        right: 160px;
-    }
- 
-     .AdaGrad{
-         padding: 50 50 0;
-         height: 600px;
-         overflow: hidden;
-     }
- 
-     .Lecturers{
-         padding: 20 20 0px;
-         height: 900px;
-     }
- 
-     .forTest{
-         width: 800px;
-         font-size: 1em;
-     }
- 
-     .TestimonialsPic{
-         width: 120px;
-         height: 120px;
-     }
-     
-     .extra{
-         width: 100px;
-         height: 2px;
-     }
- 
-     .contact{
-         background-color:blue ;
-         width: 120px;
-         height: 120px;
-     }
- 
-     .TextTest{
-         font-size: 0.6em;
-         width: 200px ;
-         height: 300px;
-         position: relative;
-         left: 140px;
-      }
- 
-      .Andy{
-          position: relative;
-          left: 400px;
-          bottom: 1240px;
-      }
-      
-      .Kate{
-         position: relative;
-         left: 400px; 
-         bottom: 1450px;
-      }
-      .callMe{
-          width: 700px;
-          position: relative;
-          left: 60px;
-          font-size:0.8em ;
-      }
- 
-      input{
-          width: 600px;
-      }
- 
-      textarea{
-          width: 600px;
-      }
- 
-      form{
-          position: relative;
-          left: 100px;
-      }
- 
-      .btnText{
-          position: relative;
-          left: 200px;
-      }
- 
-      footer{
-         padding: 50 0;
-     }
-     
-     .Ficon{
-         display: inline-block;
-         padding: 8;
-         font-size:1em;
-         border: 1px solid white;
-         border-radius:50%; 
-         position: relative;
-         left:350px;
-         top: 50px;
-     }
-     
-     .copy{
-         position: relative;
-         top: 50px;
-         font-size: 1em;
-     }  */
 }
 
 
@@ -472,234 +277,49 @@ textarea{
 
 /* --------------------------------------------------------------Extra large devices landscape */
 @media (min-width: 1200px) and (orientation: landscape) { 
-    body{
-       padding: 80px;
+    .show-on-desktop{
+        display: block;
+    }
+    .hide-on-desktop{
+        display: none;
+    }
+
+    .dark-grey{
+        margin: 50px;
+    }
+
+    .taglineHi{
+        font-size: 160px;
+        text-align: center;
     }
 
     .tag{
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
-    .desktopNav{
-        display: block;
-        position: relative;
-        bottom: 40px;
-        text-decoration: none;
+    .aboutPic{
+        padding: 60px 20px 10px 150px;
     }
 
-    .nav-link{
-        color: white;
-    }
-
-    .AboutHome{
-        padding: 30px 30px 40px;
-    }
-
-    .name{
-        letter-spacing: 0.5em;
-        position: relative;
-        bottom: 45px;
-    }
-
-    .mobile-menu{
-        display: none;
-    }
-
-    .icon{
-        padding: 5;
-       float: right;   
-    }
-
-    .deskIcon{
-        display: block;
-        text-align: center;
-        width: 20px;
-        border: 1px solid white;
-        border-radius: 80%;
-        padding: 20 2 1;
-        position: relative;
-        left: 630px;
-    }
-
-    .arrow{
-        font-size: 0.5em;
-
+    .adaPic{
+        padding: 60px 20px 10px 180px;
     }
 
     .Pic{
-        width:350px;
-        height: 350px;
-        border: 2px solid white;
-        }
+        width:60%;
+    }
+    .AdaLogo{
+        margin-bottom: 30px;
+        width: 70%;
+    }
 
-        .AbtHead{
-            font-size: 2.5em;
-            position: relative;
-            top: 40px;
-        }
         
-    .AboutMe{
-            padding: 50 50 0;
-           height: 600px;
-           overflow: hidden;
-        }
-
-        .AboutT{
-            width: 600px;
-            position: relative;
-            font-size: 1em;
-            left: 460px;
-            bottom: 360px;
-            color: white;
-        }
-
-        .Mina{
-            box-shadow: -50px -50px grey;
-        }
-
-    .aboutBtn{
-        display: none;
-    }
-    
-    .Adahead{
-        position: relative;
-        left: 120px;
-        bottom: 50px;
-        font-size: 2.5em;
+    .about{
+        padding: 50px;
     }
 
-    .graduate{
-        width: 600px;
-        height: 1500px;
-        position: relative;
-        font-size: 1em;
-        left: 460px;
-        bottom: 380px;
-        color: white;
-        
-    }
-
-    .gradbtn{
-    position: relative;
-    right: 400px;
-    }
-
-    .gradbtn2{
-        position: relative;
-        bottom: 70px;
-    }
-
-    .AdaGrad{
-        padding: 50 50 0;
-        height: 1000px;
-        overflow: hidden;
-    }
-
-    .Lecturers{
-        padding: 50 50 0px;
-        height: 1000px;
-    }
-
-    .testHead{
-        font-size: 2.5em;
-    }
-
-    .forTest{
-        width: 800px;
-        font-size: 1em;
-        color: white;
-    }
-
-    .TextTest{
-        position: relative;
-        bottom: 300px;
-    }
-
-    .TestimonialsPic{
-        width: 150px;
-        height: 150px;
-    }
-    
-    .extra{
-        width: 100px;
-        height: 2px;
-    }
-
-    .contact{
-        background-color:blue ;
-        width: 150px;
-        height: 150px;
-    }
-
-    .TextTest{
-        font-size: 1em;
-        width: 250px ;
-        height: 300px;
-        position: relative;
-        left: 160px;
-     }
-
-     .Andy{
-         position: relative;
-         left: 500px;
-         bottom: 1360px;
-     }
-     
-     .Kate{
-        position: relative;
-        left: 500px; 
-        bottom: 1570px;
-     }
-     .callMe{
-         width: 800px;
-         position: relative;
-         left: 250px;
-         font-size:1em ;
-         color: white;
-     }
-
-     input{
-         width: 800px;
-     }
-
-     textarea{
-         width: 800px;
-     }
-
-     form{
-         position: relative;
-         left: 250px;
-     }
-
-     .btnText{
-         position: relative;
-         left: 280px;
-     }
-
-     .gradbtn{
-         float: left;
-     }
-
-     footer{
-        padding: 50 0;
-    }
-    
-    .Ficon{
-        display: inline-block;
-        padding: 8;
-        font-size:1em;
-        border: 1px solid white;
-        border-radius:50%; 
-        position: relative;
-        left:570px;
-        top: 40px;
-    }
-    
-    .copy{
-        position: relative;
-        right: 15px;
-        top: 50px;
-        font-size: 1em;
+    .grad{
+        padding: 50px;
     }
 }
 
