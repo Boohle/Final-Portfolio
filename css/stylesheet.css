@@ -321,6 +321,17 @@ textarea{
     .grad{
         padding: 50px;
     }
+    .divJoin{
+        margin-bottom: 0;
+    }
+
+    .get{
+        margin-top: 50px; 
+     }
+     .TestDiv{
+         padding: 150px;
+     }
+     
 }
 
 
