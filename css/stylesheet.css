@@ -80,11 +80,12 @@ body{
 .grad{
     padding: 20px;
 }
-#Nav{
+.nav{
     width: 100vw;
     height: 80vh;
     padding: 20 30;
      text-align: center;
+     display: none;
 }
 
 .line{
@@ -178,7 +179,6 @@ form button{
     font-size: 1.5em;
     text-align: center;
     width: 35%;
-    height: 90px;
     background-color: #f54291;
     font-size: 1em;
 }
@@ -187,9 +187,12 @@ form button{
     float: right;
 }
 
+.test{
+    margin: 0!important;
+}
 
 .TestimonialsPic{
-    width: 35%;
+    width: 110px;
     margin-bottom: 5px; 
 }
 
@@ -223,6 +226,7 @@ textarea{
 }
 
 
+ 
 
 
 
@@ -332,6 +336,27 @@ textarea{
          padding: 150px;
      }
      
+     .testimon{
+         padding: 20px 0 10px 0;
+     }
+
+     .nav{
+         display: none;
+    }
+
+    
+input{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+.forForm{
+
+    text-align: center;
+}
+  
 }
 
 

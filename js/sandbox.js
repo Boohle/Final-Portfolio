@@ -1,6 +1,7 @@
+// the mobile view navbar
 const open = document.querySelector('.mobile-menu');
 const close = document.querySelector('.close');
-const show = document.querySelector('#Nav');
+const show = document.querySelector('.nav');
 const mustGo = document.querySelector('.landing');
 
 show.style.display = 'none';
