@@ -1,7 +1,7 @@
 // the mobile view navbar
 const open = document.querySelector('.mobile-menu');
 const close = document.querySelector('.close');
-const show = document.querySelector('.nav');
+const show = document.querySelector('#nav');
 const mustGo = document.querySelector('.landing');
 
 show.style.display = 'none';
@@ -11,7 +11,7 @@ open.addEventListener('click', () =>{
   mustGo.style.display = 'none';
   open.style.display = 'none';
   close.style.display = 'block';
-  document.body.style.backgroundColor = ' rgb(57, 68, 80)';
+  document.body.style.backgroundColor = 'rgb(57, 68, 80)';
 });
 
 close.addEventListener('click', ()=>{

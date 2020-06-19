@@ -52,7 +52,7 @@ a:hover{
 }
 body{
     background-color: black;
-  margin: 0;
+    margin: 0;
 }
 .dark-grey{
     background-color: #1a1a1a;
@@ -80,12 +80,24 @@ body{
 .grad{
     padding: 20px;
 }
-.nav{
-    width: 100vw;
-    height: 80vh;
-    padding: 20 30;
-     text-align: center;
-     display: none;
+#nav{
+     font-size: 2em;
+     color: white;
+}
+
+.desktop-menu{
+    display: none;
+}
+
+
+
+.close{
+    display: none;
+    color: white;
+    font-size: 1em;
+    border: 1px solid white ;
+    border-radius:50%; 
+    padding: 10;
 }
 
 .line{
@@ -95,11 +107,16 @@ body{
 }
 
 .taglineHi{
-    text-align: justify;
-    color: rgb(116, 133, 150);
+    text-align: center;
+    color: white ;
     font-size: 120px;
     font-weight: 200;
     display: inline-block;
+}
+
+.scrollies{
+    font-size: 120px;
+    color:rgb(116, 133, 150) ;
 }
 
 .ptagp{
@@ -236,16 +253,7 @@ textarea{
 
 
 
-.close{
-    display: none;
-    color: whitesmoke;
-    position: relative;
-    right: 30px;
-    font-size: 1em;
-    border: 1px solid white ;
-    border-radius:50%; 
-    padding: 10;
-}
+
 
 
 
@@ -269,7 +277,9 @@ textarea{
 
 /* // --------------------------------------------------------------Large devices (ipad pro) */
 @media (min-width: 992px) { 
-    
+    .biggermenu{
+        display: block;
+    } 
 }
 
 
@@ -294,7 +304,10 @@ textarea{
 
     .taglineHi{
         font-size: 160px;
-        text-align: center;
+    }
+
+    .scrollies{
+        font-size: 160px;
     }
 
     .tag{
@@ -340,23 +353,26 @@ textarea{
          padding: 20px 0 10px 0;
      }
 
-     .nav{
+     #nav{
          display: none;
     }
 
     
-input{
-    width: 100%;
-}
+    input{
+        width: 100%;
+    }
 
-textarea{
-    width: 100%;
-}
-.forForm{
+    textarea{
+        width: 100%;
+    }
+    .forForm{
 
-    text-align: center;
-}
+        text-align: center;
+    }
   
+    .desktop-menu{
+        display: block;
+    }
 }
 
 
