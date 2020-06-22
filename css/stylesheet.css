@@ -28,6 +28,10 @@ em{
     color: #4cd3c2;
 }
 
+ul{
+    color: white;
+}
+
 a{
     color: white;
 }
@@ -221,6 +225,7 @@ form button{
 .get{
    margin-top: 50px; 
 }
+
 footer .copy{
     text-align: center;
     font-size: 0.8em;
@@ -252,7 +257,14 @@ textarea{
 
 
 
+/* styling for the resume page */
+#DivPink strong{
+    color: #f54291;
+}
 
+#DivBlue strong{
+    color: #4cd3c2;
+}
 
 
 

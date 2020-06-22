@@ -4,7 +4,7 @@ const close = document.querySelector('.close');
 const show = document.querySelector('#nav');
 const mustGo = document.querySelector('.landing');
 
-show.style.display = 'none';
+// show.style.display = 'none';
 
 open.addEventListener('click', () =>{
   show.style.display = 'block';
