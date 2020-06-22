@@ -213,7 +213,7 @@ form button{
 }
 
 .TestimonialsPic{
-    width: 110px;
+    width: 100%;
     margin-bottom: 5px; 
 }
 
@@ -284,6 +284,16 @@ textarea{
 
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
+    /* testimonial section */
+    .testimonial-row{
+        padding: 100px 300px!important;
+    }
+    .contact{
+        min-height: 100px;
+    }
+    .testimon{
+        margin-bottom: 50px;
+    }
 }
 
 
