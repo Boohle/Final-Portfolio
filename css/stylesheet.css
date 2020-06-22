@@ -40,6 +40,7 @@ a:hover{
     color: #f54291;
 }
 
+
 .active{
     color: #4cd3c2;
 }
@@ -92,7 +93,6 @@ body{
 .desktop-menu{
     display: none;
 }
-
 
 
 .close{
@@ -163,6 +163,7 @@ form button{
     position: relative;
     left: 60px;
 }
+
 
 .Adahead{
     text-align: center;
@@ -293,6 +294,15 @@ textarea{
     }
     .testimon{
         margin-bottom: 50px;
+    }
+
+    .abtPg{
+        padding: 100px 50px 0 50px;
+    }
+
+    .skillDesk{
+       margin-top: 100px;
+        background-color: #f54291;
     }
 }
 

@@ -26,74 +26,98 @@
 
 
 <body>
-<div class="container-fluid">
-        <div class="row p-3">
-            <div class="col-sm-12 col-lg-4 offset-lg-10 ">
-                <a class="icon" href="https://github.com/Boohle"><i class="fa fa-github"> </i></a>
+ <!-- The header section -->
+ 
+ <div class="container-fluid">
+    <div class="row p-3">
+        <div class="col-sm-12 col-lg-4 offset-lg-10 ">
+            <a class="icon" href="https://github.com/Boohle"><i class="fa fa-github"> </i></a>
+           
+            <a class="icon" href="https://www.linkedin.com/in/sicelubuhle-ntuli-7218a318a/"><i class="fa fa-linkedin"> </i></a>
+              
+            <a class="icon" href="mailto:sicelubuhlen@gmail.com"><i class="fa fa-envelope" ></i></a>
                
-                <a class="icon" href="https://www.linkedin.com/in/sicelubuhle-ntuli-7218a318a/"><i class="fa fa-linkedin"> </i></a>
-                  
-                <a class="icon" href="mailto:sicelubuhlen@gmail.com"><i class="fa fa-envelope" ></i></a>
-                   
-                <a class="icon" href="tel:0795904898"><i class="fa fa-phone"></i></a>
-            
-                  <a class="icon mobile-menu show-on-mobile hide-on-desktop" href=""><i class="fa fa-bars"></i></a>
-            </div>
-        </div>
-    
-        <div class="close hide-on-desktop"><i class="fa fa-times"></i></div>
-    
-    <div class="landing">
-        <div class="row name">
-            <div class="col-sm-12 col-lg-4 offset-lg-4">
-                        <h1>SICELUBUHLE</h1> 
-            </div>
-        </div>
-            
-        <div><hr class="line"></div>
-            
-            
-            <!-- this navbar is only to be seen on desktop and not mobile view -->
-        <div class="row hide-on-mobile  show-on-desktop">
-            <div class="col-sm-12 col-lg-12">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <br>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">journey</a>
-                    </li>
-                    <br>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
-                    </li>
-                    <br>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Get in touch</a>
-                    </li>
-                
-                </ul>
-            </div>
-        </div>
-</div>
+            <a class="icon" href="tel:0795904898"><i class="fa fa-phone"></i></a>
+        
+              <div class="icon mobile-menu show-on-mobile hide-on-desktop"><i class="fa fa-bars"></i></div>
 
-        <div class="col-sm-12 col-lg">
-            <h1 class="p-3">RESUME</h1>
+              <div class="close icon hide-on-desktop"><i class="fa fa-times"></i></div>
+        </div>
+    </div>
+
+<!-- this is the mobile nav that will open  -->
+
+<div id="nav" class="overlay container-fluid">
+    <div class="row my-3">
+      <div class="col-12 my-5">
+        <div class="overlay-content text-center">
+            <a href="http://127.0.0.1:5500/index.html">home</a>
+            <br>
+            <a href="#">about</a>
+            <br>
+            <a href="#">journey</a>
+            <br>
+            <a href="http://127.0.0.1:5500/resume.html">resume</a>
+            <br>
+            <a href="#">get in touch</a>
+        </div>
+      </div>
+    </div>
+</div>
+   
+
+<div class="landing">
+    <div class="row name">
+        <div class="col-sm-12 col-lg-4 offset-lg-4">
+                    <h1>SICELUBUHLE</h1> 
+        </div>
+    </div>
+        
+    <div><hr class="line"></div>
+        
+        
+        <!-- this navbar is only to be seen on desktop and not mobile view -->
+    <div class="row desktop-menu">
+        <div class="col-sm-12 col-lg-12">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+                </li>
+                <br>
+                <li class="nav-item">
+                <a class="nav-link" href="#">journey</a>
+                </li>
+                <br>
+                <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/resume.html">Resume</a>
+                </li>
+                <br>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Get in touch</a>
+                </li>
+            
+            </ul>
+        </div>
+    </div>
+
+
+
+        <div class="col-sm-12 col-lg-12">
+            <h1 class="p-3">Resume</h1>
         </div>
      
 <div class="row dark-grey p-4">
-        <div class="pb-3 col-sm-12">
+        <div class="pb-3 col-sm-12 col-lg-6 order-lg-first abtPg">
             <h1 class="text-center">About Me</h1>
 
             <p>I have worked a number of jobs in my 5 years of work experience. At some point I worked 3 jobs at the same time while perfecting my schedule. I started working as a volunteer at the city of Johannesburg EMS as a , moved on to a learnership with the  City of Johannesburg  as business administrator and eventually got employment at a micro loan company as a loan consultant. Working in so many different professions has taught me how to approach life as it comes and never to panic too much.</p>
         </div>
 
 
-    <div class="pb-3 col-sm-12">
+    <div class="pb-3 col-sm-12 col-lg-6">
         <h1  class="p-3">Achievements</h1>
 
             <ul>
@@ -118,7 +142,7 @@
 
     </div>
 
-    <div class="pb-3 col-sm-12">
+    <div class="pb-3 col-sm-12 col-lg-6 order-lg-first skillDesk text-center">
     <h1  class="p-3">My Skills</h1>
         <p>Communication skill : <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
     
@@ -139,7 +163,7 @@
         <p>Wireframing : <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></p>
     </div>
 
-    <div class="pb-3 col-sm-12">
+    <div class="pb-3 col-sm-12 col-lg-6">
         <h1  class="p-3">Experience</h1>
 
         <!-- first woring expirience -->
@@ -182,7 +206,9 @@
         </p>
     </div>
     
-    <div class="col-sm-12">
+
+    <!-- educational expirience -->
+    <div class="col-sm-12 col-lg-6">
         <h1  class="p-3"> Education</h1>
 
         <p id="DivPink">
@@ -222,7 +248,7 @@
    
 </div>
 
-</div> 
+ 
     
  <!-- Footer with icons -->
 <div class="row p-5">
@@ -243,8 +269,9 @@
             </div>
         </footer>
     </div>
-</div>
+    </div>
 
+</div>
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
