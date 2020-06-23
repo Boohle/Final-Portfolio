@@ -306,6 +306,57 @@ textarea{
 
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
+   *{
+       overflow-x: hidden;
+   } 
+p{
+    font-size: 1.5em;
+}
+h1{
+   font-size: 3em;
+}
+h2{
+    font-weight: 500;
+}
+em{
+    font-size: 1em;
+    color: #4cd3c2;
+}
+
+.dark-grey{
+    padding: 50px;
+}
+
+
+
+button{
+    color: white;
+    background-color: #f54291;
+    padding: 10px 20px;
+    width: 350px;
+    height: 100px;
+    
+}
+
+form button{
+    padding: 0 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: 60px;
+}
+
+    
+.show-on-desktop{
+    display: block;
+}
+.hide-on-desktop{
+    display: none;
+}
+.hide-on-mobile{
+    display: none;
+}
     /* testimonial section */
     .testimonial-row{
         padding: 100px 300px!important;
