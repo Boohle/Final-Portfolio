@@ -306,7 +306,7 @@ textarea{
 
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
-   *{
+   /* *{
        overflow-x: hidden;
    } 
 p{
@@ -353,10 +353,7 @@ form button{
 }
 .hide-on-desktop{
     display: none;
-}
-.hide-on-mobile{
-    display: none;
-}
+} */
     /* testimonial section */
     .testimonial-row{
         padding: 100px 300px!important;
