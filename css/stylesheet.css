@@ -273,7 +273,7 @@ textarea{
 /* about Me page styling */
 .aboutIcon{
     padding: 10;
-    font-size:5em;
+    font-size:2em;
     border-radius:50%;  
     color: black;
     background-color: #f54291;
@@ -306,7 +306,14 @@ textarea{
 
 /* // --------------------------------------------------------------Medium devices (tablets) */
 @media (min-width: 768px) {
+<<<<<<< HEAD
   
+=======
+   /* about me section */
+   .Pic{
+       width: 50%;
+   }
+>>>>>>> e5bcea22763f9cf4ee853ebb63a0b8b8baf0e8d8
     /* testimonial section */
     .testimonial-row{
         padding: 100px 300px!important;
@@ -340,6 +347,8 @@ textarea{
 
 /* // --------------------------------------------------------------Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+
+
 }
 
 
